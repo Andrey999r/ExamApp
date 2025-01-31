@@ -80,6 +80,7 @@ namespace WpfApp3
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            
             _parentWindow.Show();
             this.Close();
         }

@@ -97,7 +97,7 @@ namespace WpfApp3
                 MessageBox.Show("Заказ успешно создан.");
             InfoWIndow infoWindow = new InfoWIndow(this);
             infoWindow.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }
